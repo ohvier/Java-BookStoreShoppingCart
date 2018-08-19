@@ -78,6 +78,8 @@ public class CartController extends HttpServlet {
 		int index=Integer.parseInt(request.getParameter("index"));
 		int quantity=Integer.parseInt(request.getParameter("quantity"));
 
+		ShoppingCart cart=session.getAttribute("cart");
+
 	}
 
 	protected void addToCart(HttpServletRequest request, HttpServletResponse response)

@@ -74,6 +74,8 @@ throws ServletException, IOException {
 private void updateCart(HttpServletRequest request,HttpServletResponse response)
 throws ServletException, IOException{
 
+	HttpSession session=request.getSession();
+
 }
 
   protected void addToCart(HttpServletRequest request, HttpServletResponse response)

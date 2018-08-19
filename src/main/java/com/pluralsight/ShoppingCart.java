@@ -27,8 +27,10 @@ public class ShoppingCart {
    try{
      CartItem cartItem=cartItems.get(index);
      cartItem.setQuantity(quantity);
-   }catch(IndexOutOfBoundsException e)
-   e.printStackTrace();
+   }catch(IndexOutOfBoundsException e){
+      e.printStackTrace();
+   }
+
  }
 
  public CartItem getCartItem(int iItemIndex) {

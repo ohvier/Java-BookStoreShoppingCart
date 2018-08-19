@@ -45,6 +45,15 @@ public class CartController extends HttpServlet {
 				case "/addcart":
 					 addToCart(request, response);
            break;
+
+			  case "/delete":
+				deleteFromCart(request,response);
+				break;
+
+				case "/update" :
+				updateCart(request,response);
+				break;
+
         default:
            break;
 			}
@@ -64,7 +73,7 @@ throws ServletException, IOException {
 
 private void updateCart(HttpServletRequest request,HttpServletResponse response)
 throws ServletException, IOException{
-	
+
 }
 
   protected void addToCart(HttpServletRequest request, HttpServletResponse response)

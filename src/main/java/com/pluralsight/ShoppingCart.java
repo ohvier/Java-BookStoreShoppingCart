@@ -22,6 +22,10 @@ public class ShoppingCart {
   cartItems.add(cartItem);
  }
 
+ public void updateCartItem(int index, int quantity){
+   
+ }
+
  public CartItem getCartItem(int iItemIndex) {
   CartItem cartItem = null;
   if(cartItems.size()>iItemIndex) {

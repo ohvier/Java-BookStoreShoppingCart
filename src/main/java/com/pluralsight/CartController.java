@@ -56,6 +56,12 @@ public class CartController extends HttpServlet {
 		response.sendRedirect("../ShoppingCart.jsp");
 	}
 
+
+private void deleteFromCart(HttpServletRequest request,HttpServletResponse response)
+throws ServletException, IOException {
+	
+}
+
   protected void addToCart(HttpServletRequest request, HttpServletResponse response)
 		throws ServletException, IOException {
    HttpSession session = request.getSession();

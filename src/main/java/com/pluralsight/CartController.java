@@ -59,6 +59,11 @@ public class CartController extends HttpServlet {
 
 private void deleteFromCart(HttpServletRequest request,HttpServletResponse response)
 throws ServletException, IOException {
+
+}
+
+private void updateCart(HttpServletRequest request,HttpServletResponse response)
+throws ServletException, IOException{
 	
 }
 
